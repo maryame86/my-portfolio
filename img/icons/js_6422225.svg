@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="js"
+   viewBox="0 0 24 24"
+   width="512"
+   height="512"
+   version="1.1"
+   sodipodi:docname="js_6422225.svg"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="swatch2"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="swatch1"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch2"
+       id="linearGradient2"
+       x1="2.5310736"
+       y1="12.858757"
+       x2="23.141244"
+       y2="12.858757"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.98678013,0,0,0.99248054,0.04743698,5.1790109e-4)" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.0371094"
+     inkscape:cx="255.03578"
+     inkscape:cy="256"
+     inkscape:window-width="1320"
+     inkscape:window-height="744"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="js" />
+  <path
+     d="m 16.792363,19.193758 a 2.1823279,2.1997943 0 0 0 1.977068,1.227085 c 0.829925,0 1.360401,-0.418283 1.360401,-0.996895 0,-0.692361 -0.544693,-0.937778 -1.459032,-1.343521 L 18.169647,17.863672 C 16.723943,17.242964 15.7634,16.464616 15.7634,14.818354 a 2.6781498,2.6995847 0 0 1 2.93228,-2.668236 2.9607152,2.9844116 0 0 1 2.85231,1.624767 l -1.56033,1.009433 A 1.3630664,1.3739757 0 0 0 18.698346,13.91909 0.8725757,0.87955945 0 0 0 17.73869,14.784318 c 0,0.606376 0.372311,0.851793 1.232447,1.227084 l 0.501154,0.215858 c 1.702499,0.736251 2.665709,1.486833 2.665709,3.173401 0,1.819129 -1.417269,2.815128 -3.320585,2.815128 a 3.8501736,3.8809889 0 0 1 -3.652023,-2.065442 z m -7.0792367,0.179137 c 0.3145537,0.562488 0.6015627,1.038991 1.2893157,1.038991 0.65843,0 1.074281,-0.259748 1.074281,-1.270077 v -6.87167 h 2.003725 v 6.896749 a 2.7216898,2.7434731 0 0 1 -2.992704,3.045318 3.1099949,3.134886 0 0 1 -3.0060317,-1.845104 z"
+     id="path1"
+     style="stroke-width:0.892119" />
+  <rect
+     style="fill:#000000;fill-opacity:0;stroke:url(#linearGradient2);stroke-width:0.70509375;stroke-dasharray:none"
+     id="rect1"
+     width="23.236719"
+     height="23.191526"
+     x="0.40423888"
+     y="0.40423867" />
+  <rect
+     style="fill:#000000;fill-opacity:0;stroke-width:0.489863;stroke-dasharray:none"
+     id="rect2"
+     width="0.99435031"
+     height="0.67796612"
+     x="15.141243"
+     y="12.112995" />
+  <rect
+     style="fill:#000000;fill-opacity:0;stroke-width:0.489863;stroke-dasharray:none"
+     id="rect3"
+     width="7.0056496"
+     height="1.717514"
+     x="15.954802"
+     y="2.621469" />
+  <rect
+     style="fill:none;fill-opacity:0;stroke-width:0.489863;stroke-dasharray:none"
+     id="rect4"
+     width="1.2655368"
+     height="1.0847458"
+     x="19.344631"
+     y="18.983051" />
+  <rect
+     style="fill:none;fill-opacity:0;stroke-width:0.489863;stroke-dasharray:none"
+     id="rect5"
+     width="0.45197737"
+     height="0.09039548"
+     x="20.881355"
+     y="0.22598869" />
+  <rect
+     style="fill:none;fill-opacity:0;stroke-width:0.489863;stroke-dasharray:none"
+     id="rect6"
+     width="0.85875702"
+     height="0.04519774"
+     x="22.870056"
+     y="0" />
+</svg>

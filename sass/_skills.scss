@@ -1,0 +1,190 @@
+
+.skills-container {
+    height: 100vh;
+    background-color: $yellow;
+    color: $dark;
+
+    @include query(mobile) {   
+        height: fit-content;
+    }
+    @include query(landscape) { 
+        height: 100vh;
+    }
+    @include query(tablet) { 
+        height: 100vh;
+    }
+
+    @include query(sideways) {
+        height: fit-content;
+    }
+
+  
+    .skills-left {
+        width: 25%;
+        font-family: $dm-serif;
+        border-right: $side-border-yellow;
+     
+        @include query(mobile) {
+            width: 100% !important;
+            margin: 10px;
+            padding: 0;
+            border-right: none;
+            border-bottom: $side-border-yellow;
+            max-height: 550px;
+            align-content: flex-start;
+        }
+        @include query(landscape) { 
+            width: 100%;
+            border-bottom: $side-border-yellow;
+        }
+        @include query(tablet) { 
+            width: 100%;
+            border-bottom: $side-border-yellow;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            width: fit-content;
+            border-bottom: $border;
+            padding: 0 10% 0% 10%;
+            text-align: center;
+            height: fit-content;
+            line-height: 1.5;
+
+            @include query(mobile) {
+                text-align: center;
+                font-size: 2.8rem;
+                margin: 0 auto !important;
+                
+            }
+        }
+
+
+        p {
+            font-family: $lato;
+            padding: 0 10% 2% 10%;
+            text-align: justify;
+            font-size: 14px;
+            margin-top: 20%;
+            @include query(landscape) { 
+                margin-top: 10%;
+            }
+            @include query(tablet) { 
+                margin-top: 10%;
+            }
+        }
+    }
+
+    .skills-right {
+        width: 75%;
+        display: flex;
+        align-content: start;
+        flex-wrap: wrap;
+
+        @include query(mobile) {
+            width: 100% !important;
+            
+        }
+        @include query(landscape) { 
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: flex-start;
+        }
+        @include query(tablet) { 
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: flex-start;
+        }
+
+        .skill-icon-container {
+            margin-top: 15%;
+            
+            @include query(landscape) { 
+                margin-top: 0;
+            }
+            @include query(tablet) { 
+                margin-top: 0;
+            }
+
+            h6 {
+                font-family: $lato;
+            }
+
+            .skill-row-top, .skill-row-btm {
+
+                display: flex;
+                justify-content: center;
+            
+                .skill-icon {
+            
+                    max-width: 5rem !important;
+                    max-height: 7rem !important;
+                
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: flex-end;
+
+                    @include query(mobile) {
+                        max-width: 4rem !important;
+                        max-height: 6rem !important; 
+                        
+                    }
+                    @include query(sideways) {
+                        max-width: 4rem !important;
+                        max-height: 6rem !important; 
+                        
+                    }
+                    
+                    img {
+                        width: 75%;
+                        margin: auto auto;
+                    }
+                
+                    p {
+                        width: 100%;
+                        margin: 0 auto;
+                        text-align: center;
+                        font-family: $lato;
+                        padding-top: 10px;
+                        font-size: 12px;
+            
+                    }
+                }
+                .skill-icon:hover {
+                    transform: scale(1.2);
+                    transition: all 1s ease;
+
+                }
+            }
+
+        }
+
+        section {
+            font-family: $lato;
+            margin-top: 2rem;
+
+            @include query(mobile) {
+                min-width: 100%;
+                margin-bottom: 15%;
+            }
+
+            p {   
+                color: white;
+                background-color: $dark;
+                font-size: 14px;
+                width: fit-content;
+
+            }
+
+            p:hover {
+                background-color: $off-white;
+                color: $dark;
+                transition: all ease 0.5s;
+            }
+        }
+    }
+}
+
+

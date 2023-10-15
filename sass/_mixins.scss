@@ -1,0 +1,54 @@
+
+@mixin custom-overlay($prop, $ease, $time) {
+    transition-property: $prop; 
+    transition-timing-function: $ease;
+    transition-duration: $time;
+}   
+  
+
+@mixin query($breakpoint) { 
+
+    @if $breakpoint==mobile {
+      @media only screen and (max-width: 575.98px) {
+        @content;
+      }
+    }
+  
+    @if $breakpoint==landscape {
+      @media only screen and (max-width: 768px) {
+        @media only screen and (min-width: 576px) {
+          @content;
+        }
+      }
+    }
+
+    @if $breakpoint==sideways {
+        @media only screen and (max-height: 650px) {
+          @content;
+        }
+      
+    }
+  
+    @if $breakpoint==tablet {
+      @media only screen and (max-width: 991.98px) {
+        @media only screen and (min-width: 768.98px) {
+          @content;
+        }
+      }
+    }
+
+    @if $breakpoint==large {
+      @media only screen and (max-width: 1199.98px) {
+        @media only screen and (min-width: 992px) {
+          @content;
+        }
+      }
+    }
+    
+    @if $breakpoint==xlarge {
+      @media only screen and (min-width: 1899.98px) {
+        @content;
+      }
+    }
+    
+}

@@ -1,0 +1,90 @@
+html {
+    body {
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+    }
+}
+
+.main-container {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    @include query(mobile) {
+        min-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .my-nav {
+        margin: 0;
+        padding: 0;
+        max-height: fit-content;
+        position: fixed;
+        font-family: $dm-serif;
+        font-size: 18px;
+        background-color: transparent;
+        transition: background-color .3s ease;
+        z-index: 99;
+
+        @include query(xlarge) {
+            font-size: 2rem;
+        }
+
+        ul {
+            li{
+                padding: 0 1% 0 1%;
+                @include query(mobile) {
+                    text-align: center;
+                }
+            }
+        }
+
+
+    }
+
+    @include query(mobile) {
+         .navbar-collapse {
+            ul {
+                padding: 0 5% 0 5%;
+                backdrop-filter: blur(10px);
+                width: 100%;
+            }
+            
+        }
+    }
+
+    @include query(landscape) {
+        .navbar-collapse {
+           ul {
+               padding: 0 5% 0 5%;
+               backdrop-filter: blur(10px);
+               width: 100%;
+           }
+           
+       }
+    }
+
+    @include query(tablet) {
+        .navbar-collapse {
+           ul {
+               padding: 0 5% 0 5%;
+               backdrop-filter: blur(10px);
+               width: 100%;
+           }
+           
+       }
+    }
+
+   
+}
+
+footer {
+    background-color: $off-white;
+
+    small {
+        font-family: $lato;
+    }
+}
+

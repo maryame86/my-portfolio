@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 448 512"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="slack.svg"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient6"
+       inkscape:swatch="gradient">
+      <stop
+         style="stop-color:#242424;stop-opacity:0.98999999;"
+         offset="0"
+         id="stop7" />
+      <stop
+         style="stop-color:#242424;stop-opacity:0;"
+         offset="1"
+         id="stop8" />
+    </linearGradient>
+    <linearGradient
+       id="swatch6"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#484848;stop-opacity:1;"
+         offset="0"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch6"
+       id="linearGradient9"
+       gradientUnits="userSpaceOnUse"
+       x1="-0.5"
+       y1="256"
+       x2="448.5"
+       y2="256" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1"
+     inkscape:cx="234.5"
+     inkscape:cy="236"
+     inkscape:window-width="1432"
+     inkscape:window-height="727"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1" />
+  <!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+  <path
+     d="m 94.12,315.1 c 0,25.9 -21.16,47.06 -47.06,47.06 C 21.16,362.16 0,341 0,315.1 0,289.2 21.16,268.04 47.06,268.04 h 47.06 z m 23.72,0 c 0,-25.9 21.16,-47.06 47.06,-47.06 25.9,0 47.06,21.16 47.06,47.06 v 117.84 c 0,25.9 -21.16,47.06 -47.06,47.06 -25.9,0 -47.06,-21.16 -47.06,-47.06 z M 164.9,126.12 C 139,126.12 117.84,104.96 117.84,79.06 117.84,53.16 139,32 164.9,32 c 25.9,0 47.06,21.16 47.06,47.06 v 47.06 z m 0,23.72 c 25.9,0 47.06,21.16 47.06,47.06 0,25.9 -21.16,47.06 -47.06,47.06 H 47.06 C 21.16,243.96 0,222.8 0,196.9 0,171 21.16,149.84 47.06,149.84 Z m 188.98,47.06 c 0,-25.9 21.16,-47.06 47.06,-47.06 25.9,0 47.06,21.16 47.06,47.06 0,25.9 -21.16,47.06 -47.06,47.06 h -47.06 z m -23.72,0 c 0,25.9 -21.16,47.06 -47.06,47.06 -25.9,0 -47.06,-21.16 -47.06,-47.06 V 79.06 C 236.04,53.16 257.2,32 283.1,32 309,32 330.16,53.16 330.16,79.06 Z M 283.1,385.88 c 25.9,0 47.06,21.16 47.06,47.06 0,25.9 -21.16,47.06 -47.06,47.06 -25.9,0 -47.06,-21.16 -47.06,-47.06 v -47.06 z m 0,-23.72 c -25.9,0 -47.06,-21.16 -47.06,-47.06 0,-25.9 21.16,-47.06 47.06,-47.06 h 117.84 c 25.9,0 47.06,21.16 47.06,47.06 0,25.9 -21.16,47.06 -47.06,47.06 z"
+     id="path1"
+     style="mix-blend-mode:normal;stroke:url(#linearGradient9);fill:#242424;stroke-opacity:0.99000001;fill-opacity:1" />
+</svg>

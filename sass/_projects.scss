@@ -1,0 +1,335 @@
+
+.projects-container {
+    height: 100vh;
+    background-color: $off-white;
+    color: $dark;
+
+    @include query(mobile) {   
+        height: fit-content;
+    }
+    @include query(landscape) { 
+        height: 100vh;
+    }
+    @include query(tablet) { 
+        height: 100vh;
+    }
+
+    @include query(sideways) {
+        height: fit-content;
+    }
+
+    .projects-left {
+        width: 25%;
+        font-family: $dm-serif;
+        border-right: $side-border-grey;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+
+        @include query(mobile) {
+            width: 100% !important;
+            margin: 10px;
+            padding: 0;
+            border-right: none;
+            border-bottom:  $side-border-grey;
+            max-height: 550px;
+            align-content: flex-start;
+        }
+        @include query(landscape) { 
+            width: 100%;
+            height: fit-content;
+            border-bottom:  $side-border-grey;
+        }
+        @include query(tablet) { 
+            width: 100%;
+            height: fit-content;
+            border-bottom:  $side-border-grey;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            width: fit-content;
+            border-bottom: $border;
+            padding: 0 10% 0% 10%;
+            text-align: center;
+            height: fit-content;
+            line-height: 1.5;
+
+            @include query(mobile) {
+                text-align: center;
+                font-size: 2.8rem;
+                margin: 0 auto !important;
+                
+            }
+            
+        }
+
+        p {
+            font-family: $lato;
+            padding: 0 10% 2% 10%;
+            text-align: justify;
+            font-size: 15px;
+            margin-top: 15%;
+            @include query(landscape) { 
+                text-align: center;
+                margin-top: 10%;
+            }
+            @include query(tablet) { 
+                text-align: center;
+                margin-top: 10%;
+            }
+
+            .gh {
+                text-decoration: none;
+                color: $dark;
+                width: 100%;
+                font-size: 1rem;
+                display: flex;
+                justify-content: center;
+                
+                img {
+                    width: 1.6rem;
+                    
+                }
+            }
+       
+        }
+
+        #modal-7 {
+
+            .modal-dialog {
+
+                .modal-content {
+                    border-radius: 0%;
+                    color: black;
+        
+                    .modal-header {
+                        border: none;
+        
+                        .modal-title {
+                            font-family: $dm-serif;
+                            #label-7 {
+                                padding: 0 !important;
+                                margin: 0 auto !important;
+                                border-bottom: none !important;
+                            }
+                        }
+        
+                    }
+                    .modal-body {
+                        font-family: $lato;
+                        text-align: justify;
+        
+                        .toolbox {
+                            width: fit-content;
+                            border: $border;
+                            color: white;
+                            background-color: black;
+                            font-size: 12px;
+                            @include query(mobile) {
+                                width: fit-content;
+                            }
+                        }
+                       
+                    }
+                    .modal-footer {
+                        border: none;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .projects-right {
+        padding: 3rem 3rem 0 3rem;
+        width: 75%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+
+        @include query(mobile) {
+            width: 100%;
+            padding: 0;
+            display: inline-flex;
+            flex-wrap: wrap;
+        }
+        @include query(landscape) { 
+            width: 100%;
+            align-content: flex-start;
+            padding: 0 3rem 0 3rem;
+        }
+        @include query(tablet) { 
+            width: 100%;
+            align-content: flex-start;
+            padding: 0 3rem 0 3rem;
+        }
+
+        .top-text {
+            font-family: $lato;             
+            text-align: center;
+            font-size: 16px;
+            margin-bottom: 5%;
+            width: 70%;
+
+            @include query(mobile) {
+                width: 100%;
+                padding: 0 20px 20px 20px;
+                width: 100%;
+
+            }
+            @include query(landscape) { 
+                text-align: center;
+            }
+            @include query(tablet) { 
+                text-align: center;
+            }
+        }
+
+        .row {
+            padding: 0 10% 0 10%;
+
+            @include query(mobile) {
+                padding: 0;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column !important;
+                width: 50% !important;
+                height: fit-content;
+                margin-bottom: 20%;
+               
+            }
+            @include query(landscape) { 
+                width: 100%;
+                padding: 0;
+            }
+            @include query(tablet) { 
+                width: 100%;
+                padding: 0;
+            }
+
+            .tile-container {
+                display: block;
+                box-shadow: $shadow;
+                margin-bottom: 1rem;
+                width: fit-content;
+                padding: 5px;
+
+                @include query(mobile) {
+                    height: fit-content;
+                    margin: 5px 10px 5px 10px !important;
+                }
+                @include query(landscape) { 
+                    width: 30%;
+                }
+                @include query(tablet) { 
+                    width: 30%;
+                }
+    
+                h5 {
+                    font-family: $dm-serif;
+                    max-width: 250px;
+                    font-size: 100%;
+                    
+                   
+                }
+            }
+        }
+
+    }
+
+    
+}
+
+.card {
+   border-radius: 0% !important;
+
+   @include query(mobile) {
+    width: fit-content;
+    }
+    @include query(landscape) { 
+        width: fit-content;
+    }
+    @include query(tablet) { 
+        width: fit-content;
+    }
+ 
+ 
+   .card-img {
+    border-radius: 0% !important;
+    max-width: 240px;
+    padding: 0;
+   }
+    .card-img-overlay {
+        background-color: #000000ad;
+        border-radius: 0% !important;
+    }
+
+    .card-overlay-cust {
+        display: inline-flex;
+        @include custom-overlay(all, ease, 0.5s);
+        opacity: 0;
+        padding: 0;
+     
+        &:hover {
+            opacity: 1;
+        }
+
+
+    }
+}
+
+.project-btn {
+    font-family: $dm-serif;
+    color: white;
+    background-color: #db0909;
+    border: 0;
+    @include query(mobile) {
+        font-size: 12px;
+    }
+}
+
+.project-btn-2 {
+    font-family: $dm-serif;
+    color: white;
+    background-color: black;
+    border: 0;
+}
+
+
+.modal {   
+    .modal-dialog {
+
+        .modal-content {
+            border-radius: 0%;
+            color: black;
+
+            .modal-header {
+                border: none;
+
+                .modal-title {
+                    font-family: $dm-serif;
+                }
+
+            }
+            .modal-body {
+                font-family: $lato;
+                text-align: justify;
+
+                .toolbox {
+                    width: fit-content;
+                    border: $border;
+                    color: white;
+                    background-color: black;
+                    font-size: 12px;
+                    @include query(mobile) {
+                        width: fit-content;
+                    }
+                }
+            }
+            .modal-footer {
+                border: none;
+            }
+        }
+    }
+}

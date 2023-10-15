@@ -1,0 +1,215 @@
+
+.contact-container {
+    height: 100vh;
+    background-color: $yellow;
+    color: $dark;
+
+    @include query(mobile) {   
+        height: fit-content;
+    }
+    @include query(landscape) {   
+        height: 100vh;
+    }
+    @include query(tablet) {   
+        height: 100vh;
+    }
+
+    @include query(sideways) {
+        height: fit-content;
+    }
+
+    .contact-left {
+        font-family: $dm-serif;
+        border-right: $side-border-yellow;
+        width: 25%;
+        @include query(mobile) {
+            width: 100% !important;
+            margin: 10px;
+            padding: 0;
+            border-right: none;
+            border-bottom:  $side-border-yellow;
+            max-height: 550px;
+            align-content: flex-start;
+        }
+        @include query(landscape) { 
+            width: 100%;
+            height: fit-content;
+            border-bottom:  $side-border-yellow;
+        }
+        @include query(tablet) { 
+            width: 100%;
+            height: fit-content;
+            border-bottom:  $side-border-yellow;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            width: fit-content;
+            border-bottom: $border;
+            padding: 0 10% 0% 10%;
+            text-align: center;
+            height: fit-content;
+            line-height: 1.5;
+
+            @include query(mobile) {
+                text-align: center;
+                font-size: 2.8rem;
+                margin: 0 auto !important;
+                
+            }
+        }
+
+        .info {
+            font-family: $lato;
+            padding: 0 10% 0 10%;
+            text-align: center;
+            font-size: 15px;
+            margin-top: 15%;
+            @include query(landscape) { 
+                text-align: center;
+                margin-top: 10%;
+            }
+            @include query(tablet) { 
+                text-align: center;
+                margin-top: 10%;
+            }
+        }
+
+        .social {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            p {
+                font-family: $lato;
+                text-align: center;
+                font-size: 15px;
+                margin: 2rem 0 2rem 0;
+                @include query(mobile) {
+                   margin: 1rem 0 1.5rem 0;
+                }
+            }
+
+            ul {
+                display: flex;
+                align-items: flex-end;
+                list-style-type: none;
+         
+                width: fit-content;
+                
+                li {
+                    width: 35px;
+                    
+                    margin: 0 1rem 0 1rem;
+                    a {
+                        img {
+                            max-width: 25px;
+                        }
+                    }
+                }
+
+                .li {
+                   margin-inline-start: -20px;
+                }
+            }
+        }
+
+        
+    }
+
+    .contact-right {
+        width: 75%;
+        display: flex;
+        align-content: flex-start;
+
+        @include query(mobile) {
+            width: 100% !important;
+            padding: 0;
+            margin: 0;
+            align-content: start !important;
+            height: fit-content;
+
+        }
+        @include query(landscape) { 
+            width: 100%;
+            align-content: flex-start;
+        }
+        @include query(tablet) { 
+            width: 100%;
+            align-content: flex-start;
+        }
+
+       .top  {
+            display: flex;
+            align-items: flex-end;
+            height: 30%;
+            padding-bottom: 1rem;
+
+            @include query(landscape) { 
+                height: 10%;
+            }
+            @include query(tablet) { 
+                height: 10%;
+            }
+
+            h4 {
+                font-family: $dm-serif;
+                width: 66%;
+                height: fit-content;
+                color: $dark;
+                @include query(mobile) {
+                   text-align: center;
+                }
+                @include query(landscape) { 
+                    text-align: center;
+                }
+                @include query(tablet) { 
+                    text-align: center;
+                }
+            }
+           
+
+            
+        }
+
+        form {
+            font-family: $lato;
+            width: 65%;
+            @include query(mobile) {
+                width: 100%;
+                margin-bottom: 15%;
+            }
+
+            label {
+                padding: 0.5rem 0 0.5rem 0;
+                font-weight: 700;
+                span {
+                    color: #ac0000;
+                }
+                
+            }
+
+            input {
+                border-radius: 0%;
+                padding: 5px;
+                border: white 1px solid;
+               
+            }
+
+            textarea {
+                border-radius: 0%;
+                border: white 1px solid;
+              
+            }
+
+            
+        }
+    }
+}
+
+#g-recaptcha-response {
+    display: block !important;
+    position: absolute;
+    margin: -50px 0 0 0 !important;
+    z-index: -999999;
+    opacity: 0;
+}

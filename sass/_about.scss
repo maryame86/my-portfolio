@@ -1,0 +1,257 @@
+
+.about-container {
+    height: 100vh;
+    background-color: $off-white;
+    color: $dark;
+   
+    @include query(mobile) {   
+        height: fit-content;
+    }
+
+    @include query(landscape) {
+        height: fit-content;
+        
+    }
+    @include query(tablet) {
+        height: 100vh;
+        
+    }
+    @include query(sideways) {
+        height: fit-content;
+    }
+
+    .about-left {
+        font-family: $dm-serif;
+        border-right: $side-border-grey;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        width: 25%;
+       
+
+        @include query(mobile) {
+            width: 100% !important;
+            margin: 10px;
+            padding: 0;
+            border-right: none;
+            border-bottom:  $side-border-grey;
+            max-height: 550px;
+            align-content: flex-start;
+        }
+        @include query(landscape) {
+            display: block;
+            width: 100%;
+            padding: 0 !important;
+            height: fit-content;
+            border-bottom:  $side-border-grey;
+            margin-bottom: 5%;
+        }
+        @include query(tablet) {
+            display: block;
+            width: 100%;
+            padding: 0 !important;
+            height: fit-content;
+            border-bottom:  $side-border-grey;
+            margin-bottom: 5%;
+        }
+
+        
+
+        h1 {
+            font-size: 3.5rem;
+            width: fit-content;
+            border-bottom: $border;
+            padding: 0 10% 0% 10%;
+            text-align: center;
+            height: fit-content;
+            line-height: 1.5;
+
+            @include query(mobile) {
+                text-align: center;
+                font-size: 2.8rem;
+                margin: auto auto 10% auto !important;
+                
+            }
+
+            @include query(landscape) {
+                width: fit-content;
+                margin: auto;
+                padding: 0 5% 0% 5%;
+            }
+            @include query(tablet) {
+                width: fit-content;
+                margin: auto;
+                padding: 0 5% 0% 5%;
+            }
+        
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            background-image: url('../img/me.jpg');
+            background-size: cover;
+            border-radius: 50%;
+            transform: rotate(-40deg);
+            border: white 5px solid;
+            margin-top: 20%;
+            @include query(mobile) {
+                width: 150px;
+                height: 150px;
+                margin-top: 5%;
+           
+            }
+            @include query(landscape) {
+                width: 180px;
+                height: 180px;
+                margin-top: 10%;
+        
+            }
+            @include query(tablet) {
+                width: 180px;
+                height: 180px;
+                margin-top: 10%;
+        
+            }
+        
+        }
+
+        .loc {
+            font-family: $lato;
+            font-size: 16px;
+            margin-top: 10%;
+            width: 100%;
+            span {
+                font-size: 20px;
+            }
+
+            a {
+                color: $dark;
+            }
+
+            @include query(mobile) {
+                margin-top: 10%;
+            }
+            @include query(landscape) {
+                width: 50%;
+                margin-bottom: 5%;
+            }
+            @include query(tablet) {
+                width: 50%;
+                margin-bottom: 5%;
+            }
+        
+        }
+
+        p {
+            font-family: $lato;
+            padding: 0 0 2% 0;
+            text-align: center;
+            font-size: 15px;
+            margin: 15% 0 0 2%;
+            
+        }
+    }
+
+    .about-right {
+        height: 100vh;
+        width: 75%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+
+        @include query(mobile) {
+            width: 100% !important;
+            padding: 0;
+            margin: 0;
+            align-content: start !important;
+            height: fit-content;
+        
+        }
+
+        @include query(landscape) {
+            width: 100%;
+            display: flex;
+            align-content: flex-start;
+            margin-top: 0%;
+            height: fit-content;
+        
+        }
+        @include query(tablet) {
+            width: 100%;
+            display: flex;
+            align-content: flex-start;
+            margin-top: 0%;
+            height: fit-content;
+        
+        }
+
+        p {
+            font-family: $lato;
+            font-size: 18px;
+            font-weight: 600;
+            text-align: justify; 
+           
+            @include query(mobile) {
+                padding: 0 !important;
+                margin: 0 !important;
+                font-size: 15px;
+                display: flex;
+                align-self: flex-start;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            @include query(landscape) {
+                width: 100%;
+                padding: 5% !important;
+                font-size: 14px;
+                margin: 0 !important;
+            
+            }
+            @include query(tablet) {
+                width: 100%;
+                padding: 5% !important;
+                font-size: 14px;
+                margin: 0 !important;
+            
+            }
+            
+            span {
+                font-size: 50px;
+                font-weight: 800;
+                font-family: $dm-serif; 
+                @include query(mobile) {
+                    font-size: 3rem;
+                    text-align: center;
+                   
+                }
+                
+            }
+
+            .wave {
+                animation-name: wave;
+                animation-duration: 2.5s;
+                animation-iteration-count: infinite;
+                transform-origin: 70% 70%; 
+                display: inline-block;
+               
+            }
+
+            @keyframes wave {
+                0% { transform: rotate( 0.0deg) }
+               10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+               20% { transform: rotate(-8.0deg) }
+               30% { transform: rotate(14.0deg) }
+               40% { transform: rotate(-4.0deg) }
+               50% { transform: rotate(10.0deg) }
+               60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+              100% { transform: rotate( 0.0deg) }
+            }
+
+        
+        }
+
+    }
+}
+
+
