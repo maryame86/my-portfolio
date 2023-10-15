@@ -1,9 +1,8 @@
 .intro-container {
-    background-image: url('../img/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg');
-    background-size: cover;
+
     @include query(mobile) {
         min-width: 100%;
-        height: fit-content;
+        height: 100vh;
         display: flex;
         flex-wrap: wrap;
         max-height: 100%;
@@ -69,7 +68,7 @@
             
             @include query(mobile) {  
                 font-size: 14px;
-
+                height: 100vh;
             } 
             @include query(landscape) {  
                 font-size: 14px;
