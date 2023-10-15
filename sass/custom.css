@@ -81,6 +81,8 @@ footer small {
 @media only screen and (max-width: 575.98px) {
   .intro-container {
     min-width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
     display: flex;
     flex-wrap: wrap;
     max-height: 100%;

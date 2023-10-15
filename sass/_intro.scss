@@ -3,6 +3,7 @@
     background-size: cover;
     @include query(mobile) {
         min-width: 100%;
+        height: fit-content;
         display: flex;
         flex-wrap: wrap;
         max-height: 100%;
