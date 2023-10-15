@@ -69,6 +69,7 @@
             @include query(mobile) {  
                 font-size: 14px;
                 height: 100vh;
+                overflow: hidden;
             } 
             @include query(landscape) {  
                 font-size: 14px;
