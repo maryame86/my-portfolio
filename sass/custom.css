@@ -148,7 +148,7 @@ footer small {
 @media only screen and (max-width: 575.98px) {
   .intro-container .intro-right p, .intro-container .intro-right #text-container {
     font-size: 14px;
-    height: 100vh !important;
+    max-height: 100vh !important;
     overflow: hidden;
   }
 }
