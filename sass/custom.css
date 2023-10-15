@@ -129,7 +129,7 @@ footer small {
     min-width: 100%;
     display: flex;
     flex-wrap: wrap;
-    max-height: 100vh !important;
+    height: 100vh;
   }
 }
 .intro-container .intro-right p, .intro-container .intro-right #text-container {
