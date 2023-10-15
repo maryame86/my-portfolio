@@ -62,14 +62,14 @@
             right: 0;
             left: 0;
             color: $dark;
-            
+          
             font-family: monospace;
             overflow-x: hidden;
             font-size: 1rem;
             
             @include query(mobile) {  
                 font-size: 14px;
-                max-height: 100vh !important;
+                max-height: 100vh;
                 overflow: hidden;
             } 
             @include query(landscape) {  
@@ -97,6 +97,10 @@
             text-shadow: none;
             display: flex;
             align-items: center;
+            @include query(mobile) {
+                height: 100vh;
+                overflow: hidden;
+            }
 
             .intro-box {
                 z-index: 4;
@@ -139,7 +143,7 @@
                     z-index: 5;
                     
                     @include query(mobile) {
-                        font-size: 5rem;
+                        font-size: 4rem;
 
                     }
                     @include query(landscape) {

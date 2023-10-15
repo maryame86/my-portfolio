@@ -149,7 +149,7 @@ footer small {
 @media only screen and (max-width: 575.98px) {
   .intro-container .intro-right p, .intro-container .intro-right #text-container {
     font-size: 14px;
-    max-height: 100vh !important;
+    max-height: 100vh;
     overflow: hidden;
   }
 }
@@ -180,6 +180,12 @@ footer small {
   text-shadow: none;
   display: flex;
   align-items: center;
+}
+@media only screen and (max-width: 575.98px) {
+  .intro-container .intro-right .headline {
+    height: 100vh;
+    overflow: hidden;
+  }
 }
 .intro-container .intro-right .headline .intro-box {
   z-index: 4;
@@ -229,7 +235,7 @@ footer small {
 }
 @media only screen and (max-width: 575.98px) {
   .intro-container .intro-right .headline .intro-box h1 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 }
 @media only screen and (max-width: 768px) and (min-width: 576px) {
