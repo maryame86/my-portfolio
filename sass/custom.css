@@ -140,7 +140,6 @@ footer small {
   right: 0;
   left: 0;
   color: #242424;
-  position: relative;
   font-family: monospace;
   overflow-x: hidden;
   font-size: 1rem;
@@ -148,7 +147,7 @@ footer small {
 @media only screen and (max-width: 575.98px) {
   .intro-container .intro-right p, .intro-container .intro-right #text-container {
     font-size: 14px;
-    height: 100vh;
+    height: 100vh !important;
     overflow: hidden;
   }
 }

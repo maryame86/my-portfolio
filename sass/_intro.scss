@@ -61,14 +61,14 @@
             right: 0;
             left: 0;
             color: $dark;
-            position: relative;
+            
             font-family: monospace;
             overflow-x: hidden;
             font-size: 1rem;
             
             @include query(mobile) {  
                 font-size: 14px;
-                height: 100vh;
+                height: 100vh !important;
                 overflow: hidden;
             } 
             @include query(landscape) {  
