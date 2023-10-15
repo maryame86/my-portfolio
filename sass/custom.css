@@ -129,7 +129,8 @@ footer small {
     min-width: 100%;
     display: flex;
     flex-wrap: wrap;
-    height: 100vh;
+    height: -moz-fit-content;
+    height: fit-content;
   }
 }
 .intro-container .intro-right p, .intro-container .intro-right #text-container {
@@ -149,8 +150,6 @@ footer small {
     font-size: 14px;
     height: 100vh !important;
     overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
   }
 }
 @media only screen and (max-width: 768px) and (min-width: 576px) {
