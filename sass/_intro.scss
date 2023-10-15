@@ -70,6 +70,8 @@
                 font-size: 14px;
                 height: 100vh !important;
                 overflow: hidden;
+                display: flex;
+                flex-wrap: wrap;
             } 
             @include query(landscape) {  
                 font-size: 14px;
