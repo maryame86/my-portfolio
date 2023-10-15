@@ -7,6 +7,7 @@
         flex-wrap: wrap;
         height: 100vh !important;
         overflow-x: hidden;
+        z-index: 2 !important;
     }
     @include query(sideways) {
        height: fit-content;

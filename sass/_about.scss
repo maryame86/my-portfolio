@@ -6,7 +6,7 @@
    
     @include query(mobile) {   
         height: fit-content;
-        z-index: 2;
+        z-index: 3 !important;
     }
 
     @include query(landscape) {

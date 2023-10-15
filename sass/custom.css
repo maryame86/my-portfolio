@@ -82,6 +82,7 @@ footer small {
     flex-wrap: wrap;
     height: 100vh !important;
     overflow-x: hidden;
+    z-index: 2 !important;
   }
 }
 @media only screen and (max-height: 650px) {
@@ -318,7 +319,7 @@ footer small {
   .about-container {
     height: -moz-fit-content;
     height: fit-content;
-    z-index: 2;
+    z-index: 3 !important;
   }
 }
 @media only screen and (max-width: 768px) and (min-width: 576px) {
